@@ -1,20 +1,14 @@
-The MIT License (MIT)
+The Stichting Alkemio ("Stichting") reserves all rights to the works that belong to the Sitchting published on this GitHub account. Nevertheless, reuse is permitted under the following conditions.
 
-Copyright (c) 2020-present George Cushen
+First - The work that is created in the Alkemio project, is available under the EU-PL license; and any outside contributions to it are under an [individual Contributor License Agreement](https://github.com/alkemio/.github/blob/master/CLA.md) ("CLA") that references this license explicitly.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
-the Software, and to permit persons to whom the Software is furnished to do so,
-subject to the following conditions:
+However - that does not mean that all (derived) work is solely under that single license. For example - where appropriate certain (open source) modules may be required and included. These will remain under their original Copyright and License (though some may be released under the EU-PL license if they are unsuitable to be contributed back upstream).
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Secondly  The documents of this project that can be considered ‘documentation’ (e.g. files not related to code/configuraton) are released under the CC0 license ([see](CC0-LICENSE.md)). If you use (parts) of these documents, you are not obliged to quote the source, but you must not imply that the Stichting endorses the derivative work.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
-FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
-CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+The CC0 does not apply to:
+ 
+- Patent rights and trademark rights.
+- Third-party rights. 
+ 
+Finally  The EU-PL license and the CC0 do not apply to photos, videos, infographics or other forms of images. It is therefore not permitted to reuse or transfer the image, unless the image explicitly states that it is permitted or you have received written permission of the Stichting. Such permission will not be withheld on unreasonable grounds.
