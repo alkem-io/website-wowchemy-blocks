@@ -1,6 +1,6 @@
 
-{{ $ := .root }}
-{{ $page := .page }}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
 {{ $hash_id := .hash_id }}
 
 <div id="carousel" class="carousel slide p-0" data-ride="carousel">
@@ -16,7 +16,7 @@
      </ol>
 <!-- Image section of carousel -->
     <div class="carousel-inner" style="max-width: 85%; margin: 0 auto; height:65px;">
-        {{ range $index, $slides := $page.Params.content.slides }} 
+        {{ range $index, $slides := $page.Params.content.slides }}
         {{ $i := eq $index "slide1" }}
         <div class="carousel-item {{ if $i }} active {{ end }} ">
             <div class="d-flex justify-content-md-center align-items-center">
@@ -46,5 +46,5 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-     
+
 </div>
