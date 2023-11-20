@@ -1,18 +1,18 @@
-{{ $ := .root }}
-{{ $page := .page }}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
 
 <div class="section-heading col-12 mb-3 text-center">
-    <h1 class="mb-0">{{ $page.Params.title }}</h1>
+    <h1 class="mb-0">{{ $block.Params.title }}</h1>
 </div>
 
 <div class="section-heading col-12 mb-3 text-center">
-    <p class="mt-1">{{ $page.Params.subtitle }}</p>
+    <p class="mt-1">{{ $block.Params.subtitle }}</p>
 </div>
 
 <div class='container'>
-    {{ range $index, $button := $page.Params.content.buttons }}
+    {{ range $index, $button := $block.Params.content.buttons }}
     {{ $image := resources.Get $button.image }}
-        {{ if modBool $index $page.Params.rowCount }}
+        {{ if modBool $index $block.Params.rowCount }}
             <div class='row justify-content-between'>
         {{ end }}
         <div class='col text-center'>
@@ -22,7 +22,7 @@
             </button>
             </a>
         </div>
-        {{ if eq (mod $index $page.Params.rowCount) (sub $page.Params.rowCount 1) }}
+        {{ if eq (mod $index $block.Params.rowCount) (sub $block.Params.rowCount 1) }}
         </div>
         {{ end }}
     {{end}}
